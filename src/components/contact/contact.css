@@ -1,0 +1,65 @@
+#contactSection {
+  width: 100vw;
+  max-width: 120rem;
+  /* border: 2px solid rgb(0, 255, 47); */
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+.contactH1 {
+  font-size: 4rem;
+  text-align: center;
+  color: var(--secondary);
+  padding: 5rem 0;
+}
+form {
+  border: 2px solid rgb(91, 90, 89);
+  border-radius: 10px;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.inputdiv {
+  background-color: var(--thired);
+  padding: 0.4rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+.contactLable {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.contactInput {
+  width: 100%;
+  background-color: var(--thired);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  /* color: var(--primary); */
+  color: white;
+  font-size: 1.4rem;
+  /* text-align: center; */
+}
+.submitBtn {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+::placeholder {
+  color: var(--primary);
+  opacity: 1; /* Firefox */
+}
+.textarea {
+  margin-bottom: 0;
+}
+.contactHr {
+  width: 100vw;
+  max-width: 120rem;
+  border: 1px solid rgb(78, 77, 77);
+  margin: 4rem auto;
+}

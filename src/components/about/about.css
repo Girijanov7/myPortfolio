@@ -1,0 +1,95 @@
+#aboutContainer {
+  width: 100vw;
+  max-width: 120rem;
+  /* border: 2px solid rgb(225, 255, 0); */
+  margin: 0 auto;
+}
+.aboutPageHeading {
+  text-align: center;
+  padding: 1.6rem;
+  font-size: 4rem;
+  color: var(--secondary);
+}
+.aboutInnerContainer {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 4.8rem;
+}
+.aboutInnerContainer .skills,
+.education {
+  text-align: center;
+  padding-top: 1.6rem;
+  font-size: 2.5rem;
+}
+.aboutInnerContainer .skillsSection,
+.educationSection {
+  border: 2px solid gray;
+  min-height: 36rem;
+  border-radius: 10px;
+}
+.skillsSection {
+  padding: 1.6rem 3rem;
+  margin-top: 1.6rem;
+}
+.skillsSection span {
+  display: inline-block;
+  border: 2px solid var(--primary);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin: 1rem 1.6rem;
+  color: var(--fourth);
+  font-size: 1.6rem;
+}
+.educationSection {
+  padding: 1.6rem 3rem;
+  margin-top: 1.6rem;
+}
+.educationSection .btech,
+.bac,
+.highSchool {
+  height: 9.6rem;
+  text-align: center;
+}
+.btech,
+.bac,
+.highSchool {
+  background-color: var(--thired);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  margin-bottom: 1.6rem;
+  padding: 0 1.6rem;
+  color: var(--fourth);
+  font-size: 1.3rem;
+
+  /* min-height: 2rem; */
+}
+.highSchool {
+  margin-bottom: 0;
+}
+.btech h3 {
+  margin-top: 0;
+}
+.aboutHr {
+  width: 100vw;
+  max-width: 120rem;
+  margin: 6.4rem auto;
+
+  border: 1px solid rgb(99, 98, 98);
+}
+@media (max-width: 600px) {
+  #aboutContainer {
+    padding: 0 3rem;
+  }
+  /* .btechH3,
+  .bacH3,
+  .highSchoolH3 {
+    font-size: 1rem;
+  } */
+  .aboutInnerContainer {
+    grid-template-columns: 1fr;
+  }
+}

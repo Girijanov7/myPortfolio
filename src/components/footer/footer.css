@@ -1,0 +1,26 @@
+#footerSection {
+  height: 10rem;
+  background-color: #fe7a3694;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.innerfooter {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* padding: 3rem; */
+  /* border: 2px solid red; */
+}
+.footerPara {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--fourth);
+}
+.fa-brands {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: white;
+}

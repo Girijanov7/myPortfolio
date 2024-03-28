@@ -1,0 +1,74 @@
+.navigation {
+  width: 100vw;
+
+  max-width: 120rem;
+  height: 6rem;
+  background-color: #0f0320;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  color: var(--secondary);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.logo span {
+  color: var(--primary);
+}
+
+.navListItem {
+  margin: 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.navListItem:hover {
+  /* border-bottom: 3px solid var(--primary); */
+  color: var(--primary);
+  /* padding-bottom: 0.8rem; */
+  cursor: pointer;
+}
+.active {
+  /* border-bottom: 3px solid var(--primary); */
+  color: var(--primary);
+  /* padding-bottom: 0.8rem; */
+}
+.hamburger {
+  border: 2px solid var(--primary);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  display: none;
+}
+.mobNavItemDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 4rem;
+  top: 6rem;
+  background-color: var(--thired);
+  padding: 0 6rem;
+  border-radius: 10px;
+  display: none;
+}
+@media (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+  .navItemDiv {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  /* .logo {
+    font-size: 1.3rem;
+  }
+  .hamburger {
+    font-size: 0.7rem;
+  } */
+}
