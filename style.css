@@ -17,7 +17,7 @@ body {
 :root {
   --primary: #fe7a36;
   --secondary: #3652ad;
-  --thired: #280274;
+  --third: #280274;
   --fourth: #e9f6ff;
 }
 @media (max-width: 900px) {
