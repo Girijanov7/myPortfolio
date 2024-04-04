@@ -55,7 +55,7 @@
 .btech,
 .bac,
 .highSchool {
-  background-color: var(--thired);
+  background-color: var(--third);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

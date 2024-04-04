@@ -1,12 +1,9 @@
 import "./footer.css";
 const Footer = () => {
   return (
-    <div id="footerSection">
+    <footer id="footerSection">
       <div className="innerfooter">
-        <p className="footerPara">
-          Copywrite <i className="fa-regular fa-copyright"></i> 2024 Girija
-          Nayak. All right reserved
-        </p>
+        <p className="footerPara">Designed and build by GIRIJA NAYAK</p>
         <div className="footerIcon">
           <a href="#" target="_blank">
             <i className="fa-brands fa-instagram"></i>
@@ -22,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

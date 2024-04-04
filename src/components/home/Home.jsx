@@ -48,7 +48,7 @@ const Home = () => {
               About Me
             </Link>
             <a
-              href="https://drive.google.com/file/d/1YXsU01fCreaNMiw18romzmHHTlwfiQDy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1b5sWCBJbfMXjqGoxkm9hvdsDClhh5GH_/view"
               target="_blank"
               className="resumebtn"
             >

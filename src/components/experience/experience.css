@@ -30,7 +30,7 @@
   /* border: 2px solid blue; */
   min-height: 30rem;
   border-radius: 10px;
-  background-color: var(--thired);
+  background-color: var(--third);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

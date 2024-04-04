@@ -19,7 +19,7 @@ form {
   padding: 1rem;
 }
 .inputdiv {
-  background-color: var(--thired);
+  background-color: var(--third);
   padding: 0.4rem;
   margin-bottom: 2rem;
   border-radius: 10px;
@@ -31,7 +31,7 @@ form {
 }
 .contactInput {
   width: 100%;
-  background-color: var(--thired);
+  background-color: var(--third);
   border: none;
   padding: 0.5rem;
   border-radius: 8px;
